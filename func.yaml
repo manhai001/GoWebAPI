@@ -1,0 +1,7 @@
+name: my-go-function
+runtime: go
+invoke: http
+build:
+  builder: pack
+  buildpacks: 
+    - gcr.io/paketo-buildpacks/go
